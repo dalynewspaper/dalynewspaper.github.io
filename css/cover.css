@@ -181,7 +181,6 @@ background-color:transparent;
   color: rgba(255,255,255,.5);
 }
 
-
 /*
  * Affix and center
  */
@@ -193,8 +192,10 @@ background-color:transparent;
     top: 0;
   }
   .mastfoot {
-    position: fixed;
+    position: center;
     bottom: 0;
+    margin-left: 280px;
+    padding-top: 10px;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
